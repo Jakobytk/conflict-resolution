@@ -1,0 +1,30 @@
+:root {
+    --sans: sans-serif;
+    --pop: hotpink;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+header h1 { 
+    text-align: center;
+    font-family: var(--sans);
+}
+
+header h2 {
+    text-align: center;
+    color: white;
+    font-family: var(--sans);
+}
+
+.card {
+    flex: 1 1 300px;
+    border: 2px dashed white;
+    color: var(--pop);
+    float: left;
+}
+
+
+
+   
